@@ -11,9 +11,38 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`getMemoryInfo()`](#getmemoryinfo)
+* [Interfaces](#interfaces)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### getMemoryInfo()
+
+```typescript
+getMemoryInfo() => Promise<MemoryInfo>
+```
+
+Obtém informações sobre a memória do dispositivo.
+
+**Returns:** <code>Promise&lt;<a href="#memoryinfo">MemoryInfo</a>&gt;</code>
+
+--------------------
+
+
+### Interfaces
+
+
+#### MemoryInfo
+
+| Prop                  | Type                 |
+| --------------------- | -------------------- |
+| **`totalMemory`**     | <code>number</code>  |
+| **`availableMemory`** | <code>number</code>  |
+| **`lowMemory`**       | <code>boolean</code> |
+
 </docgen-api>
