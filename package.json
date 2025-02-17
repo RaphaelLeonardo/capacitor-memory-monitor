@@ -1,5 +1,5 @@
 {
-  "name": "android-capacitor-memory-monitor",
+  "name": "@rphlnrd/android-capacitor-memory-monitor",
   "version": "0.0.1",
   "description": "Um plugin que visa disponibilizar informações sobre o uso de memória de um dispositivo android",
   "main": "dist/plugin.cjs.js",
@@ -78,6 +78,7 @@
     }
   },
   "dependencies": {
+    "@rphlnrd/android-capacitor-memory-monitor": "file:",
     "android-capacitor-memory-monitor": "file:"
   }
 }
